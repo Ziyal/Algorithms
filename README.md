@@ -19,7 +19,7 @@ __BSTs__
 * [is Balanced](https://github.com/Ziyal/Algorithms/blob/master/isBalanced.js)
 * [Height](https://github.com/Ziyal/Algorithms/blob/master/bstHeight.js)
 * [Breadth Traversal](https://github.com/Ziyal/Algorithms/blob/master/breadthTraversal.js)
-* [is BSTt](https://github.com/Ziyal/Algorithms/blob/master/isBst.js)
+* [is BST](https://github.com/Ziyal/Algorithms/blob/master/isBst.js)
 
 __Stacks and Queues__
 * [Stack Constructor](https://github.com/Ziyal/Algorithms/blob/master/stacks.js)

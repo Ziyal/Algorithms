@@ -1,3 +1,7 @@
+// Given two strings, check if strings are a permutation of each other
+// pig, gip => true
+// store, bored => false
+
 function CheckPermutation(string1, string2) {
 
     var seenChars = {};
@@ -8,7 +12,7 @@ function CheckPermutation(string1, string2) {
     }
 
     for(var index = 0; index < string1.length; index++) {
-        if(!seenChars[string1[index]]) {
+        if(seenChars[string1[index]]) {
             seenChars[string1[index]] += 1;
         }
         else {
@@ -21,11 +25,13 @@ function CheckPermutation(string1, string2) {
             seenChars[string2[index]] -= 1;
         }
         else {
-            console.log("Fail on dictionary check")
+            console.log("Didn't pass dictionary check")
             console.log(seenChars);
             return false;
         }
     }
+    console.log("Strings are permutations");
+    return true;
 }
 
 console.log(CheckPermutation("pig", "gip"));

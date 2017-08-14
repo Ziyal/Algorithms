@@ -39,4 +39,19 @@ list.add(2);
 
 console.log(list);
 
-// function reverse()
+SList.prototype.reverse = function() {
+    current = this.head;
+    previous = null;
+    forward = null;
+
+    while(current) {
+        forward = current.next;
+        current.next = previous;
+        previous = current;
+        current = current.next;
+    }
+    return SList;
+}
+
+list.reverse();
+console.log(list);

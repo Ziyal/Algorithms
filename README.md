@@ -3,7 +3,7 @@
 __Strings__
 * [Permutations](https://github.com/Ziyal/Algorithms/blob/master/permutations.js)
 * [All Permutations](https://github.com/Ziyal/Algorithms/blob/master/allPermutations.js)
-* [Check Permutation](https://github.com/Ziyal/Algorithms/blob/master/checkPermutation.js)
+* [Check Unique](https://github.com/Ziyal/Algorithms/blob/master/checkUnique.js)
 * [Two String Permutation](https://github.com/Ziyal/Algorithms/blob/master/twoStringPermutation.js)
 * [URL-ify](https://github.com/Ziyal/Algorithms/blob/master/isBst.js)
 

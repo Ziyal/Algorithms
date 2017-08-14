@@ -1,3 +1,5 @@
+// Given an array of values, return every possible permutations of said array
+
 function p3 (arr) {
     var returnArr = [];
     for(var i = 0; i < arr.length; i++) {
@@ -21,15 +23,17 @@ function p3 (arr) {
     return returnArr;
 }
 
-// console.log(p3([0,1,2]))
+console.log(p3([0,1,2,3]))
 
 function p4 (arr) {
-    var bArr = [];
+    var returnArr = [];
+
     for(var i = 0; i < arr.length; i++) {
         var temp = arr[i];
         arr[i] = arr[0];
         arr[0] = temp;
         var arr2 = [];
+
         for(var h = 1; h < arr.length; h++) {
             arr2.push(arr[h]);
         }
@@ -39,12 +43,13 @@ function p4 (arr) {
         else{
             var arr3 = p3(arr2);
         }
+
         for(var x = 0; x < arr3.length; x++) {
             arr3[x].unshift(arr[0]);
         }
-        bArr = bArr.concat(arr3);
+        returnArr = returnArr.concat(arr3);
     }
-    return bArr;
+    return returnArr;
 }
 
-console.log(p4([0,1,2,3, 4]))
+// console.log(p4([0,1,2,3]))

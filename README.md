@@ -6,6 +6,7 @@ __Strings__
 * [Check Unique](https://github.com/Ziyal/Algorithms/blob/master/checkUnique.js)
 * [Two String Permutation](https://github.com/Ziyal/Algorithms/blob/master/twoStringPermutation.js)
 * [URL-ify](https://github.com/Ziyal/Algorithms/blob/master/isBst.js)
+* [is Palindrome](https://github.com/Ziyal/Algorithms/blob/master/isPalindrome.js)
 
 __Arrays__
 * [Maximum Sub-array](https://github.com/Ziyal/Algorithms/blob/master/maximumSubArray.js)

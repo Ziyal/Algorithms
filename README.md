@@ -13,6 +13,7 @@ __Arrays__
 * [Shift Array](https://github.com/Ziyal/Algorithms/blob/master/shiftArray.js)
 
 __Linked Lists__
+* [Singularly Linked List Class](https://github.com/Ziyal/Algorithms/blob/master/SListClass.js)
 * [Reverse SList](https://github.com/Ziyal/Algorithms/blob/master/reverseSList.js)
 
 __BSTs__

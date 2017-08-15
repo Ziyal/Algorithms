@@ -8,6 +8,11 @@ __Strings__
 * [URL-ify](https://github.com/Ziyal/Algorithms/blob/master/isBst.js)
 * [is Palindrome](https://github.com/Ziyal/Algorithms/blob/master/isPalindrome.js)
 
+__Sorts__
+* [Bubble Sort](https://github.com/Ziyal/Algorithms/blob/master/bubbleStort.js)
+* [Selection Sort](https://github.com/Ziyal/Algorithms/blob/master/selectionSort.js)
+* [Insertion Sort](https://github.com/Ziyal/Algorithms/blob/master/insertionSort.js)
+
 __Arrays__
 * [Maximum Sub-array](https://github.com/Ziyal/Algorithms/blob/master/maximumSubArray.js)
 * [Shift Array](https://github.com/Ziyal/Algorithms/blob/master/shiftArray.js)
@@ -25,3 +30,4 @@ __BSTs__
 
 __Stacks and Queues__
 * [Stack Constructor](https://github.com/Ziyal/Algorithms/blob/master/stacks.js)
+* [Queue Constructor](https://github.com/Ziyal/Algorithms/blob/master/queues.js)

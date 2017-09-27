@@ -1,4 +1,3 @@
-
 function Node(data) {
     this.data = data;
     this.next = null;
@@ -6,6 +5,7 @@ function Node(data) {
 
 function SList() {
     this.head = null;
+    this.length = 0;
 }
 
 SList.prototype.add = function(value) {
@@ -15,7 +15,7 @@ SList.prototype.add = function(value) {
     // 1st use-case: an empty list 
     if (!currentNode) {
         this.head = node;
-        this._length++;
+        this.length++;
          
         return node;
     }
@@ -27,17 +27,10 @@ SList.prototype.add = function(value) {
  
     currentNode.next = node;
  
-    // this._length++;
+    this.length++;
      
     return node;
 };
-
-var list = new SList();
-list.add(5);
-list.add(7);
-list.add(2);
-
-console.log(list);
 
 SList.prototype.reverse = function() {
     current = this.head;
@@ -53,5 +46,13 @@ SList.prototype.reverse = function() {
     return SList;
 }
 
+var list = new SList();
+list.add(1);
+list.add(2);
+list.add(3);
+
+// console.log(list);
+
 list.reverse();
+console.log("------------ Reversed List: ------------")
 console.log(list);

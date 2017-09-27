@@ -31,3 +31,6 @@ __BSTs__
 __Stacks and Queues__
 * [Stack Constructor](https://github.com/Ziyal/Algorithms/blob/master/stacks.js)
 * [Queue Constructor](https://github.com/Ziyal/Algorithms/blob/master/queues.js)
+
+__Recursion__
+* [Triple Step](https://github.com/Ziyal/Algorithms/blob/master/tripleStep.js)

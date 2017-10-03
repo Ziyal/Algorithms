@@ -7,6 +7,7 @@ __Strings__
 * [Two String Permutation](https://github.com/Ziyal/Algorithms/blob/master/twoStringPermutation.js)
 * [URL-ify](https://github.com/Ziyal/Algorithms/blob/master/isBst.js)
 * [is Palindrome](https://github.com/Ziyal/Algorithms/blob/master/isPalindrome.js)
+* [Palindrome Permutation](https://github.com/Ziyal/Algorithms/blob/master/palindromPermutation.js)
 
 __Sorts__
 * [Bubble Sort](https://github.com/Ziyal/Algorithms/blob/master/bubbleStort.js)

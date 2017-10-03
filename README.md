@@ -17,6 +17,7 @@ __Sorts__
 __Arrays__
 * [Maximum Sub-array](https://github.com/Ziyal/Algorithms/blob/master/maximumSubArray.js)
 * [Shift Array](https://github.com/Ziyal/Algorithms/blob/master/shiftArray.js)
+* [Zero Matrix](https://github.com/Ziyal/Algorithms/blob/master/zeroMatrix.js)
 
 __Linked Lists__
 * [Singularly Linked List Class](https://github.com/Ziyal/Algorithms/blob/master/SListClass.js)

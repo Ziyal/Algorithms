@@ -36,3 +36,4 @@ __Stacks and Queues__
 
 __Recursion__
 * [Triple Step](https://github.com/Ziyal/Algorithms/blob/master/tripleStep.js)
+* [Fibonacci](https://github.com/Ziyal/Algorithms/blob/master/fibonacci.js)

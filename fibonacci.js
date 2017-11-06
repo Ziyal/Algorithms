@@ -2,11 +2,8 @@ function fibonacci(num) {
 
     if(num > 1) {
         return fibonacci(num-1) + fibonacci(num-2);
-    } 
-    else {
-        return num;
     }
-
+    return num;
 }
 
-console.log(fibonacci(8));
+console.log(fibonacci(7));

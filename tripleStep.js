@@ -1,9 +1,7 @@
 // Cracking the Coding Interview
 // Question 8.1
 
-// Triple Step: A child is running up a staircase with n steps and can hop either 1, 2, or 3 steps at a time. Implements a method to count how many possible ways the child can run up the stairs.
-
-// Brute force method. Makes more calls than nessisary
+// Brute force method. Makes more calls than necessary
 function countStairs(stairs) {
     if(stairs < 0) {
         return 0;

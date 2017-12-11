@@ -1,6 +1,7 @@
 # Algorithms
 
 __Strings__
+* [Anagram](https://github.com/Ziyal/Algorithms/blob/master/anagram.js)
 * [Permutations](https://github.com/Ziyal/Algorithms/blob/master/permutations.js)
 * [All Permutations](https://github.com/Ziyal/Algorithms/blob/master/allPermutations.js)
 * [Check Unique](https://github.com/Ziyal/Algorithms/blob/master/checkUnique.js)

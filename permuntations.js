@@ -15,7 +15,6 @@ function p3 (arr) {
                     continue;
                 }
                 newArr.push(arr[x]);
-                
             }
             returnArr.push(newArr);
         }
